@@ -657,7 +657,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/php-email-form.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -675,6 +675,10 @@
               <div class="form-group">
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="code">code (2078) </label>
+                <input type="text" class="form-control" name="code" id="code"  required>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
